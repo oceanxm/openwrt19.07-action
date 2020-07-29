@@ -5,7 +5,7 @@ on:
     types: [published]
   #push:
   #  branches:
-      - dev-master
+  #    - dev-master
   #  paths:
   #    - '.config'
   #schedule:
