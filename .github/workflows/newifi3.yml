@@ -3,15 +3,15 @@ name: newifi3 OpenWrt
 on:
   release:
     types: [published]
-  #push:
-  #  branches:
-  #    - dev-master
-  #  paths:
-  #    - '.config'
+  push:
+    branches:
+      - dev-master
+    paths:
+      - '.config'
   #schedule:
   #    - cron: 0 22 * * *
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
