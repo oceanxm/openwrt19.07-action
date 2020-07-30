@@ -19,10 +19,10 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: newifi3.config
   DIY_SH: diy.sh
-  FREE_UP_DISK: false
+  FREE_UP_DISK: true
   SSH_ACTIONS: true
   UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: true
+  UPLOAD_FIRMWARE: false
   TZ: Asia/Shanghai
 
 jobs:
